@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+<item>
+    <name>_Compendium Version Info</name>
+    <type>G</type> <text>My Custom Repo v1.0 (Updated Dec 2025)</text>
+    <text>Includes: Custom Spells, Monsters, Classes/Subclasses, Items from Homebrew Campaign</text>
+</item>
+
+<race>
+    <name>High Elf (Custom)</name>
+    <size>M</size> <speed>30</speed>
+    <ability>Int 1, Dex 2</ability> <spellAbility>Int</spellAbility>
+    <proficiency>Perception</proficiency>
+    
+    <int>1</int>
+    <dex>2</dex>
+
+    <trait>
+        <name>Darkvision</name>
+        <text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions.</text>
+    </trait>
+
+    <trait>
+        <name>Fey Ancestry</name>
+        <text>You have advantage on saving throws against being charmed, and magic can't put you to sleep.</text>
+    </trait>
+</race>
+
+<class>
+    <name>Storm Caller</name>
+    <hd>8</hd> <proficiency>Wisdom, Charisma, Nature, Survival</proficiency>
+    <spellAbility>Wisdom</spellAbility>
+    <numSkills>2</numSkills> <autolevel level="1">
+        <slots>2,0,0,0,0,0,0,0,0,0</slots> <feature>
+            <name>Thunderous Touch</name>
+            <text>You can channel lightning through your hands.</text>
+        </feature>
+    </autolevel>
+
+    <autolevel level="2">
+        <slots>2,3,0,0,0,0,0,0,0,0</slots>
+        <feature>
+            <name>Wind Step</name>
+            <text>You can move an extra 10 feet when taking the Dash action.</text>
+        </feature>
+    </autolevel>
+</class>
+
+<monster>
+    <name>Crystal Golem</name>
+    <size>L</size>
+    <type>Construct</type>
+    <alignment>Unaligned</alignment>
+    <ac>17 (Natural Armor)</ac>
+    <hp>110 (13d10+40)</hp>
+    <speed>30 ft.</speed>
+    <str>20</str><dex>9</dex><con>18</con><int>3</int><wis>11</wis><cha>1</cha>
+    <save>Con +7</save>
+    <senses>Darkvision 60 ft., passive Perception 10</senses>
+    <languages>Understands creator's language but cannot speak</languages>
+    <cr>5</cr>
+    <xp>1800</xp>
+    
+    <trait>
+        <name>False Appearance</name>
+        <text>While the golem remains motionless, it is indistinguishable from a large crystal formation.</text>
+    </trait>
+
+    <trait>
+        <name>Spellcasting</name>
+        <text>The mage is a 4th-level spellcaster. Spell save DC 13, +5 to hit with spell attacks.</text>
+    </trait>
+    <spells>Mage Hand, Magic Missile, Shield, Misty Step</spells>
+
+    <action>
+        <name>Multiattack</name>
+        <text>The golem makes two slam attacks.</text>
+    </action>
+
+    <action>
+        <name>Slam</name>
+        <text>Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) bludgeoning damage.</text>
+    </action>
+</monster>
+
+
+
+
+
+
+</compendium>

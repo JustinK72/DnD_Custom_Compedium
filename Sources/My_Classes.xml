@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+<item>
+    <name>_Compendium Version Info</name>
+    <type>G</type> <text>My Custom Repo v1.0 (Updated Dec 2025)</text>
+    <text>Includes: Custom Spells, Monsters, Classes/Subclasses, Items from Homebrew Campaign</text>
+</item>
+
+
+<class>
+    <name>Storm Caller</name>
+    <hd>8</hd> <proficiency>Wisdom, Charisma, Nature, Survival</proficiency>
+    <spellAbility>Wisdom</spellAbility>
+    <numSkills>2</numSkills> <autolevel level="1">
+        <slots>2,0,0,0,0,0,0,0,0,0</slots> <feature>
+            <name>Thunderous Touch</name>
+            <text>You can channel lightning through your hands.</text>
+        </feature>
+    </autolevel>
+
+    <autolevel level="2">
+        <slots>2,3,0,0,0,0,0,0,0,0</slots>
+        <feature>
+            <name>Wind Step</name>
+            <text>You can move an extra 10 feet when taking the Dash action.</text>
+        </feature>
+    </autolevel>
+</class>
+
+
+
+
+
+
+
+</compendium>

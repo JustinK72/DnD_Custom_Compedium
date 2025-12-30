@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compendium version="5">
+<item>
+    <name>_Compendium Version Info</name>
+    <type>G</type> <text>My Custom Repo v1.0 (Updated Dec 2025)</text>
+    <text>Includes: Custom Spells, Monsters, Classes/Subclasses, Items from Homebrew Campaign</text>
+</item>
+
+<!--
+<type> Codes:
+W: Weapon
+A: Ammunition
+P: Potion
+M: Wondrous Item / Magic Item
+R: Ring
+RD: Rod
+S: Shield
+ST: Staff
+W: Wand
+LA: Light Armor
+MA: Medium Armor
+HA: Heavy Armor
+
+<property> Codes (for weapons):
+A: Ammunition
+F: Finesse
+H: Heavy
+L: Light
+LO: Loading
+R: Reach
+T: Thrown
+2H: Two-Handed
+V: Versatile
+-->
+
+    <item>
+        <name>Blade of the Exile</name>
+        <type>W</type> <magic>1</magic> <rarity>Rare</rarity>
+        <weight>3</weight>
+        <cost>500 gp</cost>
+        <dmg1>1d8</dmg1>
+        <dmg2>1d10</dmg2> <dmgType>S</dmgType> <property>V, F</property> <text>This blade hums with a low vibration. On a critical hit, the target is knocked prone.</text>
+        <text>Proficiency with a longsword allows you to add your proficiency bonus to the attack roll for any attack you make with it.</text>
+        
+        <modifier category="bonus">attack +1</modifier>
+        <modifier category="bonus">damage +1</modifier>
+    </item>
+
+    <item>
+        <name>Brew of Giants</name>
+        <type>P</type> <magic>1</magic>
+        <rarity>Uncommon</rarity>
+        <weight>0.5</weight>
+        <cost>150 gp</cost>
+        <text>When you drink this potion, your Strength score changes to 21 for 1 hour. The potion has no effect on you if your Strength is equal to or greater than that score.</text>
+    </item>
+
+    <item>
+        <name>Amulet of the Lost</name>
+        <type>M</type> <magic>1</magic>
+        <rarity>Very Rare</rarity>
+        <weight>1</weight>
+        <attunement>yes</attunement> <text>While wearing this amulet, you have advantage on Wisdom (Survival) checks to navigate.</text>
+        <text>Curse. You cannot voluntarily remove this amulet.</text>
+        
+        <modifier category="ability score">Wisdom +2</modifier>
+    </item>
+
+    <item>
+        <name>Shadow Leather</name>
+        <type>LA</type> <ac>12</ac>
+        <weight>10</weight>
+        <stealth>1</stealth> <text>The armor seems to absorb light. While wearing it in dim light or darkness, you can take the Hide action as a bonus action.</text>
+    </item>
+
+</compendium>

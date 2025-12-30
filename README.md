@@ -53,3 +53,6 @@ Choose the instructions for the app you use below.
      ```bash
      python builder.py
      ```
+
+For creating a RPG System
+https://docs.rpg-companion.app/

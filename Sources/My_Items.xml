@@ -7,6 +7,11 @@
 </item>
 
 <!--
+Needs to have this source tag on everything
+<source>Player's Handbook 2024</source> <text>WotC 2024 Rules</text>
+or 
+<source>Justin Knight</source> <text>Homebrew rules made by Justin</text>
+
 <type> Codes:
 W: Weapon
 A: Ammunition

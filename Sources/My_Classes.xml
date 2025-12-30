@@ -7,27 +7,84 @@
 </item>
 
 
-<class>
-    <name>Storm Caller</name>
-    <hd>8</hd> <proficiency>Wisdom, Charisma, Nature, Survival</proficiency>
-    <spellAbility>Wisdom</spellAbility>
-    <numSkills>2</numSkills> <autolevel level="1">
-        <slots>2,0,0,0,0,0,0,0,0,0</slots> <feature>
-            <name>Thunderous Touch</name>
-            <text>You can channel lightning through your hands.</text>
-        </feature>
-    </autolevel>
+    <class>
+        <name>Storm Caller</name>
+        <hd>8</hd> <proficiency>Wisdom, Charisma, Nature, Survival</proficiency>
+        <spellAbility>Wisdom</spellAbility>
+        <numSkills>2</numSkills> <autolevel level="1">
+            <slots>2,0,0,0,0,0,0,0,0,0</slots> <feature>
+                <name>Thunderous Touch</name>
+                <text>You can channel lightning through your hands.</text>
+            </feature>
+        </autolevel>
 
-    <autolevel level="2">
-        <slots>2,3,0,0,0,0,0,0,0,0</slots>
-        <feature>
-            <name>Wind Step</name>
-            <text>You can move an extra 10 feet when taking the Dash action.</text>
-        </feature>
-    </autolevel>
-</class>
+        <autolevel level="2">
+            <slots>2,3,0,0,0,0,0,0,0,0</slots>
+            <feature>
+                <name>Wind Step</name>
+                <text>You can move an extra 10 feet when taking the Dash action.</text>
+            </feature>
+        </autolevel>
+    </class>
+
+    <class>
+        <name>Spirit Walker</name>
+        <hd>8</hd>
+        <proficiency>Wisdom, Simple Weapons, Light Armor</proficiency>
+        <spellAbility>Wisdom</spellAbility>
+        <numSkills>2</numSkills>
+
+        <autolevel level="1">
+            <slots>2,0,0,0,0,0,0,0,0,0</slots>
+            <feature>
+                <name>Spirit Sight</name>
+                <text>You can see into the Ethereal Plane up to 60 feet.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="2">
+            <slots>3,0,0,0,0,0,0,0,0,0</slots>
+            <feature>
+                <name>Spirit Path</name>
+                <text>At 2nd level, you choose a path: Path of the Ancestors or Path of the Beast.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="2">
+            <subclass>Path of the Ancestors</subclass> <feature>
+                <name>Ancestral Guidance</name>
+                <text>You gain proficiency in History. You can cast Augury once per long rest.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="6">
+            <subclass>Path of the Ancestors</subclass>
+            <feature>
+                <name>Spectral Shield</name>
+                <text>Use your reaction to reduce damage to an ally by 1d10 + Wis mod.</text>
+            </feature>
+        </autolevel>
 
 
+        <autolevel level="2">
+            <subclass>Path of the Beast</subclass> <feature>
+                <name>Feral Claws</name>
+                <text>Your unarmed strikes deal 1d6 slashing damage.</text>
+            </feature>
+        </autolevel>
+
+        <autolevel level="6">
+            <subclass>Path of the Beast</subclass>
+            <feature>
+                <name>Bestial Vigor</name>
+                <text>You gain resistance to poison damage.</text>
+            </feature>
+        </autolevel>
+
+    </class>
+
+
+<!-- End of Examples -->
 
 
 

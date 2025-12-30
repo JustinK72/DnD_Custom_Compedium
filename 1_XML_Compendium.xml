@@ -42997,6 +42997,35 @@ Source:	Player's Handbook (2024) p. 196</text>
       <text>You know the Thaumaturgy cantrip. When you cast it with this trait, the spell uses the same spellcasting ability you use for your Fiendish Legacy trait.</text>
     </trait>
   </race>
+    <item>
+        <name>_Compendium Version Info</name>
+        <type>G</type> <text>My Custom Repo v1.0 (Updated Dec 2025)</text>
+        <text>Includes: Custom Spells, Monsters, Classes/Subclasses, Items from Homebrew Campaign</text>
+    </item>
+    <spell>
+    <name>Alchemical Grenade</name>
+    <level>0</level>
+    <school>EV</school>
+    <time>1 action</time>
+    <range>Self</range>
+    <components>S, M (a crossbow or firearm, and a piece of ammunition)</components>
+    <duration>Instantaneous</duration>
+    <classes>School: Evocation, Artificer</classes>
+    <text>You create a alchemical device to be launch at using a crossbow or firearm. When casting the spell roll a d6 to determine the damage type.
+    1 = Acid
+    2 = Cold
+    3 = Fire
+    4 = Lightning
+    5 = Poison
+    6 = Thunder
+Ammo Limit: Cannot have more than 3 grenades casted.
+Cantrip Upgrade: The damage of this spell increases by 1d6 at 5th (2d6), 11th (3d6), and 17th level (4d6).
+Source:	Justin's Compendium of Spells p. 2 (Homebrew)</text>
+    <roll description="Random Damage" level="0">1d6</roll>
+    <roll description="Random Damage" level="5">2d6</roll>
+    <roll description="Random Damage" level="11">3d6</roll>
+    <roll description="Random Damage" level="17">4d6</roll>
+  </spell>
   <spell>
     <name>Alustriel's Mooncloak [2024]</name>
     <level>5</level>

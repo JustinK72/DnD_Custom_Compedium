@@ -54,5 +54,7 @@ Choose the instructions for the app you use below.
      python builder.py
      ```
 
-For creating a RPG System
+---
+
+## For creating a RPG System
 https://docs.rpg-companion.app/
